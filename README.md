@@ -1,1 +1,1 @@
-git hook yello
+git hook black

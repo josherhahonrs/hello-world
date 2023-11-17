@@ -28,7 +28,7 @@ jobs:
           black .  # Replace "." with the directory or file you want to lint
            - name: Run Pytest
         run: |
-          pytest  # Run your pytest suite here
+          Pytest  # Run your Pytest suite here
 
           
 

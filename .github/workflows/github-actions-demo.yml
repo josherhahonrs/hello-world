@@ -26,4 +26,9 @@ jobs:
       - name: Lint with Black
         run: |
           black .  # Replace "." with the directory or file you want to lint
+           - name: Run Pytest
+        run: |
+          pytest  # Run your pytest suite here
+
+          
 

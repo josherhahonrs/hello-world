@@ -15,7 +15,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -26,9 +25,10 @@ jobs:
       - name: Lint with Black
         run: |
           black .  # Replace "." with the directory or file you want to lint
-           - name: Run Pytest
+      - name: Run Pytest
         run: |
-          Pytest  # Run your Pytest suite here
+          pytest  # Run your pytest suite here
+
 
           
 
